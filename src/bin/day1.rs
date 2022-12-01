@@ -12,7 +12,7 @@ fn main() -> color_eyre::Result<()> {
         .collect::<Vec<_>>();
 
     let mut energies: Vec<_> = input
-        // every every line denotes a new group
+        // every empty line denotes the split of a new group
         .split(|line| line.is_empty())
         // sum up the energy of each group
         .map(|group| {
