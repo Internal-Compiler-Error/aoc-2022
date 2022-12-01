@@ -1,1 +1,4 @@
 /target
+
+# IDE nonsense, yes I could just never add it but the starship git indicator just won't shut up
+/.idea
