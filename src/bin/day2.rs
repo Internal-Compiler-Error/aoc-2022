@@ -53,16 +53,16 @@ fn main() -> color_eyre::Result<()> {
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 enum Hand {
-    Rock,
-    Paper,
-    Scissors,
+    Rock = 1,
+    Paper  = 2,
+    Scissors = 3,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 enum Goal {
-    Win,
-    Lose,
-    Draw,
+    Win = 6,
+    Lose = 0,
+    Draw = 3,
 }
 
 fn desired_hand_by_goal(opponent: &Hand, goal: &Goal) -> Hand {

@@ -16,6 +16,10 @@ path = "src/bin/day1.rs"
 name = "day2"
 path = "src/bin/day2.rs"
 
+[[bin]]
+name = "day3"
+path = "src/bin/day3.rs"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
