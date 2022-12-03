@@ -44,7 +44,7 @@ fn first<I, S>(lines: I) -> u32
 
 fn second<I, S>(lines: I) -> u32
     where I: Iterator<Item=S>,
-          S: AsRef<str> + Debug,
+          S: AsRef<str>,
 
 {
     // sadly chunking for iterators is unstable
